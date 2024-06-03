@@ -35,7 +35,8 @@ lista *insere_ordenado_crescente(lista *lst, int val){
     return lst;
 }
 
-lista *free_lista(lista *lst){
+
+void free_lista(lista *lst){
     lista *aux;
     lista *p = lst;
     while (p != NULL){
@@ -43,5 +44,4 @@ lista *free_lista(lista *lst){
         free(p);
         p = aux;
     }
-    
 }
