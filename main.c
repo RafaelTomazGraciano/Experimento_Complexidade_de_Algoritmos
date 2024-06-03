@@ -19,8 +19,8 @@ int main(){
             fim_t = clock(); // finaliza o timer
             total_t = (double)(fim_t - inicio_t) / CLOCKS_PER_SEC; // faz a conta do tempo
             fprintf(arq, "%f ", total_t); // escreve no arquivo
+            free_lista(lst);
         }
-        free_lista(lst);
         fprintf(arq, "\n");
     }
 
