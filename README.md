@@ -9,7 +9,7 @@
 ## Sobre
 
 
-<p>Neste projeto criamos um arquivo txt com o tempo demorado para a ordenação de 5.000 listas, e o valor vai aumentando em 5.000 até chegar em 50.000 listas. Para termos uma boa media, criamos 30 vezes a mesma quantidade de lista. Depois fazemos uma media e criamos uma grafico em python.<p>  
+<p>Neste projeto criamos um arquivo txt com o tempo demorado para a ordenação de 5.000 listas, e o valor vai aumentando em 5.000 até chegar em 50.000 listas. Para termos uma boa média, criamos 30 vezes a mesma quantidade de listas. Depois fazemos uma média e criamos uma gráfico em python.<p>  
 
 
 
