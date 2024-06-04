@@ -23,6 +23,20 @@ Para clonar o repositório
    https://github.com/RafaelTomazGraciano/Experimento_Complexidade_de_Algoritmos.git
 ```
 
+<p>Para rodar os códigos é necessário ter instalado python e minGW.Depois basta instalar as duas biblliotecas abaixo<p>  
+
+Para instalar o matplotlib abra o terminal e digite
+
+```bash
+   pip install matplotlib
+```
+
+Para instalar o seaborn abra o terminal e digite
+
+```bash
+   pip install seaborn
+```
+
 
 <p>Primeiramente, deve-se rodar o código em C, e depois o código em pyhton, que gerará o gráfico de Complexidade de Algoritmo.<p>  
 
@@ -42,6 +56,4 @@ Para clonar o repositório
 ![Função quadratico, Complpexidade n²](imagens/quadratico.png)  
 
 
-   
 
-- ``Obs: O pyhton e as bibliotecas matploblib e seaborn deve estar instalados para o código em python funcionar.``  
