@@ -17,21 +17,21 @@
 ## Como usar  
 
 
-Para clonar o repositório  
+Para clonar o repositório:  
 
 ```bash
    https://github.com/RafaelTomazGraciano/Experimento_Complexidade_de_Algoritmos.git
 ```
 
-<p>Para rodar os códigos é necessário ter instalado python e minGW.Depois basta instalar as duas biblliotecas abaixo<p>  
+<p>Para rodar os códigos é necessário ter instalado python e minGW. Depois basta instalar as duas biblliotecas abaixo<p>  
 
-Para instalar o matplotlib abra o terminal e digite
+Para instalar o matplotlib abra o terminal e digite:
 
 ```bash
    pip install matplotlib
 ```
 
-Para instalar o seaborn abra o terminal e digite
+Para instalar o seaborn abra o terminal e digite:
 
 ```bash
    pip install seaborn
