@@ -1,7 +1,7 @@
 # Experimento_Complexidade_de_Algoritmos
 
 
-Este experimento de complexidade de algoritmos foi feito como projeto de Estrutura de Dados na [UENP](https://uenp.edu.br/).
+<p>Este experimento de complexidade de algoritmos foi feito como projeto de Estrutura de Dados na [UENP](https://uenp.edu.br/).<p>  
 
 
 
@@ -9,23 +9,51 @@ Este experimento de complexidade de algoritmos foi feito como projeto de Estrutu
 ## Sobre
 
 
-Neste projeto criamos um arquivo txt com o tempo demorado para a ordenação de 5.000 listas, e o valor vai aumentando em 5.000 até chegar em 50.000 listas. Para termos uma boa media, criamos 30 vezes a mesma quantidade de lista. Depois fazemos uma media e criamos uma grafico em python.
+<p>Neste projeto criamos um arquivo txt com o tempo demorado para a ordenação de 5.000 listas, e o valor vai aumentando em 5.000 até chegar em 50.000 listas. Para termos uma boa média, criamos 30 vezes a mesma quantidade de listas. Depois fazemos uma média e criamos uma gráfico em python.<p>  
 
 
 
 
-## Como usar
+## Como usar  
 
 
-Para clonar o repositório
+Para clonar o repositório:  
 
 ```bash
    https://github.com/RafaelTomazGraciano/Experimento_Complexidade_de_Algoritmos.git
 ```
 
+<p>Para rodar os códigos é necessário ter instalado python e minGW. Depois basta instalar as duas biblliotecas abaixo<p>  
 
-Primeiramente, deve-se rodar o código em C, e depois o código em pyhton, que gerará o gráfico de Complexidade de Algoritmo.
+Para instalar o matplotlib abra o terminal e digite:
 
-![Logo do Markdown](file:///C:/Users/rafae/Imagens/Capturas%20de%20tela/Screenshot%202024-06-03%20202348.png)
+```bash
+   pip install matplotlib
+```
 
-- ``Obs: O pyhton e as bibliotecas matploblib e seaborn deve estar instalados para o código em python funcionar.``
+Para instalar o seaborn abra o terminal e digite:
+
+```bash
+   pip install seaborn
+```
+
+
+<p>Primeiramente, deve-se rodar o código em C, e depois o código em pyhton, que gerará o gráfico de Complexidade de Algoritmo.<p>  
+
+
+### Gráfico de uma Função Linear, Complexidade n
+
+   
+![Função linear, Complpexidade n](imagens/linear.png)  
+
+
+
+
+
+### Gráfico de uma Função Quadrática, Complexidade n²
+
+
+![Função quadratico, Complpexidade n²](imagens/quadratico.png)  
+
+
+
