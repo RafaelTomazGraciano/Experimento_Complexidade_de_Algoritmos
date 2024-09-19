@@ -17,7 +17,7 @@ int main(){
     FILE *arq_caso_pior_binario = fopen("IteracoesPiorCasoBinario.txt", "w");
 
     for(int tamanho = 5000; tamanho <= 50000; tamanho += 5000){
-        int vetor[tamanho];
+        int *vetor = (int *) malloc(tamanho * sizeof(int));
         for(int i = 0; i < tamanho; i++){
             vetor[i] = i; 
         }
@@ -37,6 +37,7 @@ int main(){
         fprintf(arq_caso_pior_linear, "\n");
         fprintf(arq_caso_pior_ordenado, "\n");
         fprintf(arq_caso_pior_binario, "\n");
+        free(vetor);
     }
 
     fclose(arq_caso_medio_linear);
